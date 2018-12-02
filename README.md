@@ -43,7 +43,7 @@ jx create cluster
 
 or
 
-## Install Jenkins X on anexisting cluster, Providers (GKE, AMS, AKS etc).
+## Install Jenkins X on an existing cluster, Providers (GKE, AMS, AKS etc).
 jx install --provider=gke
 
 ```
