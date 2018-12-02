@@ -1,3 +1,5 @@
+![s](https://static.imasters.com.br/wp-content/uploads/2018/07/25101608/Jenkins-X-uma-nova-soluc%CC%A7a%CC%83o-de-CICD-para-Kubernetes-%E2%80%93-Parte-02.jpg)
+
 # Jenkins X - Guide
 
 First of all, have a look to [JenkinsX](https://jenkins-x.io) to know more about it.
@@ -31,7 +33,40 @@ helm server        v2.11.0+g2e55dbe
 git                git version 2.10.1
 
 ```
+At this point you are ready to go!
+
+### Let's create our first cluster
 
 
-### At this point you are ready to go!
+### Table of definitions
+
+Git	The most popular VCS
+
+Jenkins	An open source CI / CD automation platform
+
+Jenkins X	A subproject of Jenkins, automates CI/CD processes in Kubernetes based systems
+
+Kubernetes	a.k.a. k8s, open source, distributed management system of containerized applications
+
+Minikube	A tool to run Kubernetes locally
+GitOps	A set of principles for managing software and infrastructure based on Git
+
+Docker	A containers management platform
+
+Docker registry	A repository to store and distribute Docker containers
+
+Nexus	An artifact repository
+
+Helm	A package manager for Kubernetes
+
+Helm Chart	A collection of configuration files that describe a related set of Kubernetes resources. E.g. chart, describing 
+an application stack
+
+Chartmuseum	An open-source Helm Chart Repository
+
+Monocular	An open-source web-based UI for Helm Chart management
+
+Quickstart	Pre-made Jenkins X applications templates a developer can start a project from, instead of starting from scratch
+
+
 
