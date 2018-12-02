@@ -35,8 +35,23 @@ git                git version 2.10.1
 ```
 At this point you are ready to go!
 
-### Let's create our first cluster
+###  Setting up a Google Cloud account 
 
+if you do not have one, please [create one for free](https://cloud.google.com/free/)
+
+Set you gcloud account locally from your terminal run
+
+```
+## gcloud auth login - authorize gcloud to access the Cloud Platform with Google user credentials
+gcloud auth login
+
+## myproject will be the name you have defined into your glcoud account.
+gcloud config set project myproject
+```
+
+### Creating our first cluster
+
+Using JX to create a cluster into your gcloud project
 ```
 ## Create a new Kubernete cluster aka K8s on GKE => (Google cloud)
 jx create cluster gke
