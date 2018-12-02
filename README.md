@@ -49,6 +49,8 @@ gcloud auth login
 gcloud config set project myproject
 ```
 
+** This is necessario because you may have other projects, and wen you run Jx create, is very important that you have set up the right gcloud project.
+
 ### Creating our first cluster
 
 Using JX to create a cluster into your gcloud project
@@ -58,8 +60,16 @@ jx create cluster gke
 
 or
 
+## if you have set up your gcloud project as mentioned above, then run this command instead.
+jx create cluster gke --skip-login
+
+## Second option to intall Jenkins X
 ## Install Jenkins X on an existing cluster, Providers (GKE, AMS, AKS etc).
 jx install --provider=gke
+
+or
+
+jx install --provider=gke --skip-login
 
 ```
 
