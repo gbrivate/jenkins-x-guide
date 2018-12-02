@@ -38,8 +38,8 @@ At this point you are ready to go!
 ### Let's create our first cluster
 
 ```
-## Create a new Kubernete cluster aka K8s on GKE
-jx create cluster
+## Create a new Kubernete cluster aka K8s on GKE => (Google cloud)
+jx create cluster gke
 
 or
 
