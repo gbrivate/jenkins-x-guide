@@ -63,8 +63,12 @@ or
 ## if you have set up your gcloud project as mentioned above, then run this command instead.
 jx create cluster gke --skip-login
 
-## Second option to intall Jenkins X
-## Install Jenkins X on an existing cluster, Providers (GKE, AMS, AKS etc).
+```
+
+Installing Jenkins X on an existing cluster (GKE, AMS, AKS etc).
+
+```
+## Install Jx in one existing cluster.
 jx install --provider=gke
 
 or
