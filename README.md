@@ -49,7 +49,7 @@ gcloud auth login
 gcloud config set project myproject
 ```
 
-** This is necessario because you may have other projects, and wen you run Jx create, is very important that you have set up the right gcloud project.
+** This is necessary because you may have other projects, and wen you run Jx create, is very important that you have set up the right gcloud project.
 
 ### Creating our first cluster
 
