@@ -47,6 +47,10 @@ gcloud auth login
 
 ## myproject will be the name you have defined into your glcoud account.
 gcloud config set project myproject
+
+## To know if the gcloud has been set up correctly run 
+gcloud info
+
 ```
 
 ** This is necessary because you may have other projects, and wen you run Jx create, is very important that you have set up the right gcloud project.
