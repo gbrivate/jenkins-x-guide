@@ -57,25 +57,7 @@ COMMON_GIT: jxdojocommon/commonpassw0rd
 
 Using JX to create a cluster into your gcloud project
 ```
-## Create a new Kubernete cluster aka K8s on GKE => (Google cloud)
-jx create cluster gke
-
-or
-
-## if you have set up your gcloud project as mentioned above, then run this command instead.
-jx create cluster gke --skip-login
-
-```
-
-Installing Jenkins X on an existing cluster (GKE, AMS, AKS etc).
-
-```
-## Install Jx in one existing cluster.
-jx install --provider=gke
-
-or
-
-jx install --provider=gke --skip-login
+jx init --namespace=jxdojo --provider=gke --username=jxdojocommon@gmail.com --verbose
 
 ```
 
