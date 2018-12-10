@@ -46,6 +46,9 @@ Set you gcloud account locally from your terminal run
 ```
 gcloud container clusters get-credentials ninjabelt --zone asia-east1-a --project cinq-jx-dojo
 
+COMMON_GMAIL: jxdojocommon@gmail.com/commonpassword
+COMMON_GIT: jxdojocommon/commonpassw0rd
+
 ```
 
 ** This is necessary because you may have other projects, and wen you run Jx create, is very important that you have set up the right gcloud project.
