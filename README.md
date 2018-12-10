@@ -59,6 +59,8 @@ Using JX to create a cluster into your gcloud project
 ```
 jx init --namespace=jxdojo --provider=gke --username=jxdojocommon@gmail.com --verbose
 
+jx install --default-admin-password=cinqtechjxdojo --default-environment-prefix=cinqtech-jx --environment-git-owner=cinqtechnologies --git-api-token=bd3ca842d962e660a6be951ba2e986a5cb3d035e --git-username=cinqtechdojo-jx-bot --install-only --namespace=jxdojo --provider=gke --username=jxdojocommon@gmail.com --skip-setup-tiller --skip-ingress --no-default-environments
+
 ```
 
 
