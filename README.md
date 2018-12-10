@@ -41,6 +41,8 @@ if you do not have one, please [create one for free](https://cloud.google.com/fr
 
 Set you gcloud account locally from your terminal run
 
+gcloud container clusters get-credentials ninjabelt --zone asia-east1-a --project cinq-jx-dojo
+
 ```
 ## gcloud auth login - authorize gcloud to access the Cloud Platform with Google user credentials
 gcloud auth login
