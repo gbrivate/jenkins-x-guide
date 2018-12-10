@@ -41,17 +41,10 @@ if you do not have one, please [create one for free](https://cloud.google.com/fr
 
 Set you gcloud account locally from your terminal run
 
-gcloud container clusters get-credentials ninjabelt --zone asia-east1-a --project cinq-jx-dojo
+
 
 ```
-## gcloud auth login - authorize gcloud to access the Cloud Platform with Google user credentials
-gcloud auth login
-
-## myproject will be the name you have defined into your glcoud account.
-gcloud config set project myproject
-
-## To know if the gcloud has been set up correctly run 
-gcloud info
+gcloud container clusters get-credentials ninjabelt --zone asia-east1-a --project cinq-jx-dojo
 
 ```
 
